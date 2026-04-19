@@ -2,9 +2,9 @@
 
 ## Overview
 
-Port Photon (PHO) from its current 0.8.9.8 codebase to Bitcoin Core 0.15.2, following the same approach used for the Blakecoin 0.15.2 update (`Blakecoin-0.15.2-update`).
+Port Photon (PHO) from its current 0.8.9.8 codebase to Bitcoin Core 0.15.2, following the same approach used for the Blakecoin 0.15.2 update (`Blakecoin-0.15.21`).
 
-**Reference codebase:** `../Blakecoin-0.15.2-update/` — the completed Blakecoin port to 0.15.2
+**Reference codebase:** `../Blakecoin-0.15.21/` — the completed Blakecoin port to 0.15.2
 **Original codebase:** `../Photon/` — current 0.8.9.8 source with all coin-specific parameters
 
 ---
@@ -176,7 +176,7 @@ reward = 32768 * COIN + int64(sqrt(dDiff * height))
 
 ### Phase 1: Copy & Rebrand the Blakecoin 0.15.2 Base
 
-1. **Copy** the entire `Blakecoin-0.15.2-update` codebase into this directory
+1. **Copy** the entire `Blakecoin-0.15.21` codebase into this directory
 2. **Rename** all Blakecoin references → Photon:
    - Binary names: `photond`, `photon-qt`, `photon-cli`, `photon-tx`
    - Config file: `photon.conf`, config dir `~/.photon/`
@@ -312,7 +312,7 @@ Note: Photon shares the SAME pubkey address prefix (26) as Blakecoin. This means
 
 | What | Where |
 |------|-------|
-| Reference (completed) | `../Blakecoin-0.15.2-update/` |
+| Reference (completed) | `../Blakecoin-0.15.21/` |
 | Original coin source | `../Photon/` |
 | Original params | `../Photon/src/main.cpp` |
 | Original build script | `../Photon/build.sh` |

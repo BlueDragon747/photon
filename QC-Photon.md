@@ -1,9 +1,9 @@
 # Photon 0.15.2 QC Report
 
 **QC run date:** 2026-04-11
-**Repo:** `/home/sid/Blakestream-Installer/repos/Photon-0.15.2-update/`
+**Repo:** `/home/sid/Blakestream-Installer/repos/Photon-0.15.21/`
 **Original source:** `/home/sid/Blakestream-Installer/repos/Photon/`
-**Source of truth:** `Photon-0.15.2-update.md`
+**Source of truth:** `Photon-0.15.21.md`
 
 ---
 
